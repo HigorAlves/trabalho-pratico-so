@@ -7,16 +7,16 @@ int main() {
 		scanf("%c", &input);
 		switch (input) {
 			case 'Q':
-				printf("Entrou com Q\n");
+				printf("Executar processo\n");
 				break;
 			case 'U':
-				printf("Entrou com U\n");
+				printf("Desbloquear processo\n");
 				break;
 			case 'P':
-				printf("Entrou com P\n");
+				printf("Imprimi o estado atual\n");
 				break;
 			case 'T':
-				printf("Entrou com T\n");
+				printf("Reportar o tempo e finaliza o app\n");
 				break;
 		}
 	} while (input != 'T');
