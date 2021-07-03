@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include "main.h"
 
 int main() {
 	char input;
-	printf("Programa iniciado por favor entre com um comando: ");
+	printf("Programa iniciado\n");
 	do {
+		printf("Entre com um comando: ");
 		scanf("%c", &input);
 		switch (input) {
 			case 'Q':
